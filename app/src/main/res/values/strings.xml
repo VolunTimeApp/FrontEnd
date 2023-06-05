@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">VolunTime</string>
+    <string name="default_web_client_id">345390126874-tc2tjpmatt73vt9ve0kp0ti1vuakjcr1.apps.googleusercontent.com</string>
+
+    <string name="logo_description">VolunTime logo</string>
+    <string name="google_logo">Google Logo</string>
+    <string name="facebook_logo">Facebook Logo</string>
+
+    <string name="lets_start">Let\'s Start VolunTiming!</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="register_now">Register Now!</string>
+    <string name="login_now">Login Now!</string>
+
+    <string name="know_you">Let us get to know you!</string>
+    <string name="age">For how long have you been on earth?</string>
+    <string name="hobbies">What do you like to do?</string>
+    <string name="location">Where do you live?</string>
+    <string name="availability">How many hours would fit?</string>
+    <string name="experience">Have you ever volunteered before?</string>
+    <string name="generate_positions">Find me volunteer positions!</string>
+    <string name="log_out">Log Out</string>
+    <string name="explore">Explore</string>
+    <string name="simulate">Simulate</string>
+    <string name="send_btn">send</string>
+
+</resources>

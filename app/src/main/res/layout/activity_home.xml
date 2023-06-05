@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen">
+
+    <ImageView
+        android:id="@+id/logo3"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="300sp"
+        android:layout_height="45dp"
+
+        android:layout_marginTop="16dp"
+        android:background="@drawable/dark_button"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/log_out"
+        android:textColor="@color/dark_button_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/simulate" />
+
+    <TextView
+        android:id="@+id/simulate"
+        android:layout_width="300sp"
+        android:layout_height="45dp"
+
+        android:layout_marginTop="16dp"
+        android:background="@drawable/dark_button"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/simulate"
+        android:textColor="@color/dark_button_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/explore" />
+
+    <TextView
+        android:id="@+id/explore"
+        android:layout_width="300sp"
+        android:layout_height="45dp"
+
+        android:layout_marginTop="300dp"
+        android:background="@drawable/dark_button"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/explore"
+        android:textColor="@color/dark_button_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

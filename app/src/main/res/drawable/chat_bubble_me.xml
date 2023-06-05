@@ -1,0 +1,5 @@
+<!-- chat_bubble_me.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#1A73E8" /> <!-- Background color of chat bubble for "Me" -->
+    <corners android:radius="16dp" /> <!-- Adjust the radius as desired -->
+</shape>

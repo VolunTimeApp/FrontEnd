@@ -1,0 +1,5 @@
+<!-- dimens.xml -->
+<resources>
+    <dimen name="chat_bubble_margin">8dp</dimen> <!-- Adjust the margin as desired -->
+    <dimen name="chat_bubble_padding">12dp</dimen> <!-- Adjust the padding as desired -->
+</resources>

@@ -1,0 +1,5 @@
+<!-- chat_bubble_other.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#E4E4E4" /> <!-- Background color of chat bubble for the other user -->
+    <corners android:radius="16dp" /> <!-- Adjust the radius as desired -->
+</shape>
